@@ -11,8 +11,13 @@
 		E31E995E1A7F28A900BDB079 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31E995D1A7F28A900BDB079 /* ViewController.swift */; };
 		E31E99611A7F28A900BDB079 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E31E995F1A7F28A900BDB079 /* Main.storyboard */; };
 		E31E99631A7F28A900BDB079 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E31E99621A7F28A900BDB079 /* Images.xcassets */; };
-		E31E99661A7F28A900BDB079 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E31E99641A7F28A900BDB079 /* LaunchScreen.xib */; };
 		E31E99721A7F28AA00BDB079 /* YboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31E99711A7F28AA00BDB079 /* YboxTests.swift */; };
+		E31E997C1A7F2F5D00BDB079 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31E997B1A7F2F5D00BDB079 /* CreateAccountRootViewController.swift */; };
+		E31E997E1A8090ED00BDB079 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31E997D1A8090ED00BDB079 /* SignInRootViewController.swift */; };
+		E31E99801A8092A000BDB079 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31E997F1A8092A000BDB079 /* CreateAccountViewController.swift */; };
+		E31E99821A8093A000BDB079 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31E99811A8093A000BDB079 /* SignInViewController.swift */; };
+		E31E99841A8098B900BDB079 /* ToSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31E99831A8098B900BDB079 /* ToSViewController.swift */; };
+		E31E99861A80A53100BDB079 /* ForgotMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31E99851A80A53100BDB079 /* ForgotMenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,10 +37,15 @@
 		E31E995D1A7F28A900BDB079 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E31E99601A7F28A900BDB079 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E31E99621A7F28A900BDB079 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		E31E99651A7F28A900BDB079 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E31E996B1A7F28AA00BDB079 /* YboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E31E99701A7F28AA00BDB079 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E31E99711A7F28AA00BDB079 /* YboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YboxTests.swift; sourceTree = "<group>"; };
+		E31E997B1A7F2F5D00BDB079 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		E31E997D1A8090ED00BDB079 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
+		E31E997F1A8092A000BDB079 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		E31E99811A8093A000BDB079 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		E31E99831A8098B900BDB079 /* ToSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToSViewController.swift; path = Ybox/ToSViewController.swift; sourceTree = "<group>"; };
+		E31E99851A80A53100BDB079 /* ForgotMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotMenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,7 @@
 		E31E994D1A7F28A900BDB079 = {
 			isa = PBXGroup;
 			children = (
+				E31E99831A8098B900BDB079 /* ToSViewController.swift */,
 				E31E99581A7F28A900BDB079 /* Ybox */,
 				E31E996E1A7F28AA00BDB079 /* YboxTests */,
 				E31E99571A7F28A900BDB079 /* Products */,
@@ -80,8 +91,12 @@
 				E31E995B1A7F28A900BDB079 /* AppDelegate.swift */,
 				E31E995D1A7F28A900BDB079 /* ViewController.swift */,
 				E31E995F1A7F28A900BDB079 /* Main.storyboard */,
+				E31E997F1A8092A000BDB079 /* CreateAccountViewController.swift */,
+				E31E99811A8093A000BDB079 /* SignInViewController.swift */,
+				E31E997D1A8090ED00BDB079 /* SignInRootViewController.swift */,
+				E31E99851A80A53100BDB079 /* ForgotMenuViewController.swift */,
+				E31E997B1A7F2F5D00BDB079 /* CreateAccountRootViewController.swift */,
 				E31E99621A7F28A900BDB079 /* Images.xcassets */,
-				E31E99641A7F28A900BDB079 /* LaunchScreen.xib */,
 				E31E99591A7F28A900BDB079 /* Supporting Files */,
 			);
 			path = Ybox;
@@ -193,7 +208,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E31E99611A7F28A900BDB079 /* Main.storyboard in Resources */,
-				E31E99661A7F28A900BDB079 /* LaunchScreen.xib in Resources */,
 				E31E99631A7F28A900BDB079 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,7 +226,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E31E99801A8092A000BDB079 /* CreateAccountViewController.swift in Sources */,
+				E31E997E1A8090ED00BDB079 /* SignInRootViewController.swift in Sources */,
+				E31E99821A8093A000BDB079 /* SignInViewController.swift in Sources */,
+				E31E99841A8098B900BDB079 /* ToSViewController.swift in Sources */,
+				E31E997C1A7F2F5D00BDB079 /* CreateAccountRootViewController.swift in Sources */,
 				E31E995E1A7F28A900BDB079 /* ViewController.swift in Sources */,
+				E31E99861A80A53100BDB079 /* ForgotMenuViewController.swift in Sources */,
 				E31E995C1A7F28A900BDB079 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,14 +262,6 @@
 				E31E99601A7F28A900BDB079 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E31E99641A7F28A900BDB079 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E31E99651A7F28A900BDB079 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -336,6 +348,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Ybox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +359,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Ybox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -405,6 +419,7 @@
 				E31E99771A7F28AA00BDB079 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E31E99781A7F28AA00BDB079 /* Build configuration list for PBXNativeTarget "YboxTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +428,7 @@
 				E31E997A1A7F28AA00BDB079 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
